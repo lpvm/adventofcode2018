@@ -11,8 +11,9 @@ common: copy []
 input-strings: copy []
 foreach id input-txt [append input-strings to-string id]
 
+block-id: copy []
+
 foreach id input-strings [
-	block-id: copy []
 	append block-id id
 	other-ids: exclude input-strings block-id
 	id-pos: first id
