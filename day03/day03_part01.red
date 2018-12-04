@@ -39,7 +39,7 @@ foreach claim claim-block [
 	while [cl-top <= cl-bottom] [
 		while [current <= cl-right] [
 			inch: side-size * (cl-top ) + current	
-			unless select occupied inch [put occupied inch 0]
+			unless find occupied inch [put occupied inch 0]
 			put occupied inch (select occupied inch) + 1
 			current: current + 1
 		]
