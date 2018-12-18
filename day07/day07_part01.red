@@ -1,6 +1,6 @@
 Red [ 
 	Title:  "Advent of Code 2018 - Day 07 - Part 01" 
-	Date:   2018-12-15
+	Date:   2018-12-18
 	File:   %day07_part01.red
 	Author: "Luis Vale Mendes"
 	Version: 0.0.1
